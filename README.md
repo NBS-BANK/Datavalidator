@@ -59,7 +59,7 @@ To subscribe the html element to the service, you create an instance of the Data
                                      var datavalidator = new DataValidator();
 									 
 Note: The assumption here is that the library has already been made visible to your html code, for example by adding this line of code:
-<script src="~/js/validations.js"></script>   Assuming that this is the correct location of the library.
+<script src="~/js/datavalidator-1.0.7.js"></script>   Assuming that this is the correct location of the library.
 
 The final part is to hook the html element with the function that will be called when event handler fires. This function is exposed by the instance of the DataValidator
 class, as so:
